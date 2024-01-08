@@ -1,0 +1,55 @@
+.recipe-box-vw{
+    background-color: rgba(246, 246, 247, 0.726);
+    padding:50px;
+    box-shadow:2px 2px 50px 5px rgb(243, 243, 243);
+}
+
+.rep-sm-date{
+    font-size:11px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    color:black;
+    margin-top:15px;
+}
+
+.rep-main-hdg{
+    font-size:18px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    color:rgb(54, 54, 54);
+    /* margin-top:5px; */
+}
+.rep-para-hdg{
+    font-size:14.5px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    text-align: justify;
+    margin-top:7px;
+    color:rgb(90, 90, 90);
+}
+.cmt-name{
+    font-size:12.5px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color:rgb(97, 97, 97);
+    margin-top:10px;
+}
+.rep-img-box{
+    width:100%;
+    height:220px;
+}
+.btm-line{
+    border-bottom: solid 1.5px rgb(199, 199, 199);
+    margin-top: 25px;
+}
+.rep-main-box:hover{
+    transform: scale(1.01); 
+    cursor: pointer;
+}
+
+@media only screen and (max-width:767.99px){
+    .recipe-box-vw{
+        padding:10px;
+    }
+    
+}

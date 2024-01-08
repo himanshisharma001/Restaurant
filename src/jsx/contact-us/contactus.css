@@ -1,0 +1,97 @@
+.cnt-dtl-name{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+}
+.cnt-dtl-main-nm{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    color:rgb(94, 94, 94);
+    /* margin-left:60px */
+}
+
+.cnt-icn-vw{
+    font-size:16px;
+    color:rgb(94, 94, 94);
+    cursor: pointer;
+}
+
+.cnt-icn-vw:hover{
+    color:black;
+}
+
+.frm-input-box{
+    width:100%;
+    border:solid 1px rgb(206, 206, 206);
+    padding: 13px;
+    font-size:13px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color:grey;
+    border-radius:2px;
+}
+
+.frm-input-box:focus{
+    border:solid 1px rgb(63, 63, 63);
+   
+}
+
+.cnt-btn-vw{
+    background-color: rgb(214, 214, 214);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top:20px;
+    width:100%;
+    max-width:200px;
+    font-size:13px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color:black;
+    text-align: center;
+    cursor: pointer;
+    border:solid 1px rgb(207, 207, 207);
+}
+
+.cnt-btn-vw:hover{
+    background-color: rgba(0, 0, 0, 0.788);
+    color:white;
+    border:solid 1px rgb(34, 34, 34);
+}
+
+.cnt-map-prlx{
+    background:
+    linear-gradient(to bottom, rgba(41, 41, 41, 0.52), rgba(34, 34, 34, 0.73));
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    transition: 10s ease-in-out;
+  }
+
+  .contact-banner-box{
+    background:
+    linear-gradient(to bottom,  rgba(61, 61, 61, 0.384), rgba(63, 63, 63, 0.397)),
+    url('../../assets/images/contactbanner.png')no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    transition: 3s ease-in-out;
+    padding: 100px;
+    /* margin-top: -35px; */
+    height: 400px;
+    
+  }
+  @media only screen and (max-width:767.99px){
+    .contact-banner-box{
+        padding: 20px;
+        /* margin-top: -35px; */
+        height: 200px;
+        
+      }
+  }

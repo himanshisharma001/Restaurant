@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.css-wjh20t-MuiPagination-ul{
+    justify-content: center !important;
+   
+}
+
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: black !important;
+  
+}
+
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.blg-share-in{
+    margin-top:13px;
+    color:rgb(90, 90, 90);
+}
+.blg-share-in:hover{
+    color:black
+}
+
+.blog-user-box{
+    border:solid 1px rgb(219, 219, 219);
+    padding: 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.user-name-hdg{
+    font-size:14px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+}
+
+.user-dtl-paraa{
+    font-size:13.5px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color:rgb(110, 110, 110);
+}
+
+.user-main-vw-box{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.user-data-dtl{
+    margin-left:20px;
+}
+.post-pre-nxt-box img{
+    width:110px;
+    height: 80px;
+}
+
+.blog-btmline{
+    border-top:solid 2px rgb(219, 219, 219);
+    margin-bottom:20px;
+}
+
+.cmt-heading-fnt{
+    font-size:20px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    font-family: "Playfair Display",serif;
+}
+.cmt-frm-input{
+    border:solid 1.8px rgb(202, 202, 202);
+    font-size:12px;
+    font-weight: 500;
+    letter-spacing: 0.75px; 
+    padding:15px;
+    width:100%;
+    margin-bottom:10px;
+
+}
+
+.cmt-frm-input::placeholder{
+    color:rgb(128, 128, 128);
+}
+
+.about-user-img{
+    width: 100%;
+    height:100%;
+}
+.about-user-img-box{
+    width:100%;
+    max-width: 350px;
+    margin:auto;
+    /* filter: drop-shadow(2px 2px 10px 5px rgb(199, 199, 199)); */
+}
+.lst-pst-img-box img{
+    width:80px;
+    height:80px;
+    border-radius: 50px;
+}
+.lst-pst-hdgfnt{
+    font-size:18px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    margin-top: -10px;
+    color:rgb(116, 116, 116);
+}
+.hlty-img{
+    width:100%;
+    height: 100%;
+}
+.flw-box-vw{
+    border-top:solid 2px rgb(224, 224, 224);
+    border-bottom:solid 2px rgb(224, 224, 224);
+    border-left:solid 2px rgb(224, 224, 224);
+    border-right:solid 2px rgb(224, 224, 224);
+    padding:7px;
+    background-color: white;
+    color:rgb(141, 141, 141);
+}
+.flw-box-vw:hover{
+    background-color: rgb(224, 224, 224); 
+    color:black;
+}
+.tag-box-vw-box{
+    font-size:11.5px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color:rgb(128, 128, 128);
+    border:solid 2px rgb(224, 224, 224);
+    padding-left:20px;
+    padding-right: 20px; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    cursor: pointer;
+}
+.tag-box-vw-box:hover{
+    background-color: rgb(224, 224, 224);
+    color:black
+}
+.tag-dtl-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.blog-banner-box{
+    background:
+    linear-gradient(to bottom,  rgba(61, 61, 61, 0.384), rgba(63, 63, 63, 0.397)),
+    url('../../assets/images/blogbanner.jpg')no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    transition: 3s ease-in-out;
+    padding: 100px;
+    /* margin-top: -35px; */
+    height: 400px;
+    
+  }
+
+  .blog-new-banner-box{
+    background:
+    linear-gradient(to bottom,  rgba(61, 61, 61, 0.384), rgba(63, 63, 63, 0.397)),
+    url('../../assets/images/blgdtlbanner.jpg')no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    transition: 3s ease-in-out;
+    padding: 100px;
+    /* margin-top: -35px; */
+    height: 400px;
+    
+  }
+
+
+.blg-bnr-fnt-sz{
+    font-size:50px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    color:white;
+    margin-top:45px
+}
+
+@media only screen and (max-width:767.99px){
+    .user-main-vw-box{
+        display: block;
+        justify-content: space-between;
+    } 
+
+    .user-data-dtl{
+        margin-left:0px;
+        margin-top:20px;
+    }
+
+    .blog-banner-box{
+        padding: 20px;
+        height: 200px;
+        
+      }
+      .blg-bnr-fnt-sz{
+        font-size:25px;
+        font-weight: 700;
+        margin-top:60px
+    }
+    
+}

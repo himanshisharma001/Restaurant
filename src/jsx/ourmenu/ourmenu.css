@@ -1,0 +1,54 @@
+.tagline{
+    border-bottom: solid 1px grey;
+    width:300px;
+    margin: auto;
+}
+
+.submenu-para{
+    font-size: 13.5px;
+    font-weight: 500;
+    color:rgb(102, 101, 101);
+    /* margin-top:7px; */
+    letter-spacing: 0.75px;
+}
+.our-menu-hdg{
+    font-size:16.5px;
+    font-weight:500;
+    letter-spacing: 0.75px;
+    color:black;
+}
+
+.rupee-icon{
+    font-size:20px !important;
+}
+.main-menu-bg{
+    background-color: rgb(242, 242, 243);
+    padding: 50px;
+}
+.main-menu-hdg{
+    font-size:14px;
+    font-weight:500;
+    letter-spacing: 0.75px;
+    margin-top:17px;
+}
+.main-mn-para-fnt{
+    font-size:15.5px;
+    font-weight:400;
+    color:rgb(121, 121, 121);
+    margin-top:7px;
+}
+@media only screen and (max-width:767.99px){
+    .submenu-para{
+        font-size: 12px;
+    }  
+
+    .tagline{
+        width:100px;
+    }
+    .our-menu-hdg{
+        font-size:13px;
+    }
+    .rupee-icon{
+        font-size:16px !important;
+    }
+}

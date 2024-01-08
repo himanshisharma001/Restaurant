@@ -1,0 +1,58 @@
+.parallax2 {
+    background:
+    linear-gradient(to bottom, rgba(41, 41, 41, 0.52), rgba(34, 34, 34, 0.73)),
+    url('../../assets/images/reviewbg.jpg')no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    transition: 10s ease-in-out;
+    /* margin-top: -35px; */
+    padding:100px;
+  }
+
+  .user-box-img{
+    width:100%;
+    max-width:80px;
+    height:80px;
+    margin: auto;
+
+  }
+
+  .revw-img-vw{
+    border-radius: 100px;
+    width:100%;
+    height:100%;
+  }
+
+  .carousel-container {
+    overflow-x: hidden !important;
+  }
+
+  .revw-cmt-vw{
+    font-size:18px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color:white;
+    margin-top:15px;
+  }
+
+  .revw-user-name{
+    font-size:15px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color:white;
+    margin-top:40px
+  }
+
+  @media only screen and (max-width:767.99px){
+    .parallax2 {
+      padding:30px;
+    }
+
+    .revw-cmt-vw{
+      font-size:15px;
+  
+    }
+  }

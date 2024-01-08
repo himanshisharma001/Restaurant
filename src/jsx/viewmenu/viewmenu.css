@@ -1,0 +1,48 @@
+.vw-menu-bg{
+    background-color: rgb(243, 243, 250);
+    padding:50px;
+}
+
+.ing-para{
+    text-align: justify;
+    margin-top:15px;
+}
+
+.button_slide {
+    color: black;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-size: 13.5px;
+    font-weight:500;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 black;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    margin-top:24px;
+  }
+
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 rgb(63, 63, 63);
+    color: white;
+  }
+
+  .ing-box-img{
+    width:100%;
+    height:400px;
+  }
+
+  @media only screen and (max-width:767.99px){
+    .ing-box-img{
+        width:100%;
+        height:auto;
+      }  
+
+      .vw-menu-bg{
+        padding:20px;
+    }
+  }

@@ -1,0 +1,52 @@
+.our-specl-bg{
+    background-color: white;
+    padding: 50px;
+    box-shadow: 2px 2px 40px 5px rgb(245, 245, 245);
+}
+.abt-read-mr{
+    font-size:15px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    margin-top:20px;
+    color:black;
+}
+
+.abt-read-mr:hover {
+color:grey
+}
+
+.about-banner-box{
+    background:
+    linear-gradient(to bottom,  rgba(61, 61, 61, 0.384), rgba(63, 63, 63, 0.397)),
+    url('../../assets/images/aboutbanner.png')no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    transition: 3s ease-in-out;
+    padding: 100px;
+    /* margin-top: -35px; */
+    height: 400px;
+    
+  }
+
+
+.blg-bnr-fnt-sz{
+    font-size:50px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    color:white;
+    margin-top:45px
+}
+@media only screen and (max-width:767.99px){
+    .our-specl-bg{
+        padding: 0px;
+    }
+    .about-banner-box{
+        padding: 20px;
+        /* margin-top: -35px; */
+        height: 200px;
+        
+      }
+}

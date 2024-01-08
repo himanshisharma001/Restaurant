@@ -1,0 +1,74 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    text-align: start !important;
+    -webkit-box-align: start !important;
+    justify-content: start !important;
+    align-items: start !important;
+    font-size:13px !important;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: 0.75px !important;
+}
+.tab-data-hdg{
+    font-size:22px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: 0.75px !important;
+    color:rgb(46, 46, 46);
+}
+.tab-para-dtl{
+    font-size:14px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: 0.75px !important;
+    text-align: justify;
+    color:rgb(87, 87, 87);
+}
+.tab-menu-image{
+    width:100%;
+    max-width: 200px;
+    height:200px;
+    margin:auto
+}
+
+.css-19kzrtu {
+    padding: 5px !important;
+}
+
+.offers-bg-vw{
+    padding:50px;
+    box-shadow: 2px 2px 50px 5px rgb(238, 237, 237);
+    width:100% !important;
+}
+
+.parallax1 {
+    background:
+    linear-gradient(to bottom, rgba(61, 61, 61, 0.384), rgba(63, 63, 63, 0.397)),
+    url('../../assets/images/bgImg.jpg')no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    transition: 3s ease-in-out;
+    /* margin-top: -35px; */
+    
+  }
+
+  .wel-fnt-size{
+    padding:100px;
+  }
+
+@media only screen and (max-width:767.99px){
+    .offers-bg-vw{
+        padding:10px;
+      
+    }
+    .tab-menu-image{
+        width:100%;
+       
+        height:auto;
+        margin:auto
+    }
+}

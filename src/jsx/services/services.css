@@ -1,0 +1,41 @@
+.foodtake-bg {
+    background:
+    linear-gradient(to bottom, rgba(41, 41, 41, 0.288), rgba(34, 34, 34, 0.411)),
+    url('../../assets/images/servicebg.jpg')no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    transition: 10s ease-in-out;
+    /* margin-top: -35px; */
+    padding:100px;
+   
+    
+  }
+
+  .service-banner-box{
+    background:
+    linear-gradient(to bottom,  rgba(61, 61, 61, 0.384), rgba(63, 63, 63, 0.397)),
+    url('../../assets/images/servicebanner.png')no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    transition: 3s ease-in-out;
+    padding: 100px;
+    /* margin-top: -35px; */
+    height: 400px;
+    
+  }
+  @media only screen and (max-width:767.99px) {
+    .foodtake-bg {
+        padding:0px;
+      }
+      .service-banner-box{
+        padding: 20px;
+        height: 200px;
+        
+      }
+  }
